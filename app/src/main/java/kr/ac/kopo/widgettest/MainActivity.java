@@ -11,16 +11,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import kr.ac.kopo.widgettest.R;
 
 public class MainActivity extends AppCompatActivity {
-
     private RadioGroup radioGroup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.enable_clickable_test);
 
         // RadioGroup 초기화
-        radioGroup = findViewById(R.id.radioGroup);
+    /*    radioGroup = findViewById(R.id.radioGroup);
 
         // 버튼 및 클릭 이벤트 설정
         Button button = findViewById(R.id.button);
@@ -38,6 +37,6 @@ public class MainActivity extends AppCompatActivity {
                 // Toast 메시지 출력
                 Toast.makeText(MainActivity.this, result + "을 선택하였습니다.", Toast.LENGTH_LONG).show();
             }
-        });
+        });*/
     }
 }
